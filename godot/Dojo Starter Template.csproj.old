@@ -1,0 +1,23 @@
+<Project Sdk="Godot.NET.Sdk/4.1.1">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+    <RootNamespace>DojoStarterTemplate</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+  <Reference Include="StarkSharp">
+    <HintPath>Dojo\libs\StarkSharp.dll</HintPath>
+    <Private>True</Private>
+  </Reference>
+  <Reference Include="BouncyCastle.Cryptography">
+    <HintPath>Dojo\libs\BouncyCastle.Cryptography.dll</HintPath>
+    <Private>True</Private>
+  </Reference>
+  <Reference Include="Newtonsoft.Json">
+    <HintPath>Dojo\libs\Newtonsoft.Json.dll</HintPath>
+    <Private>True</Private>
+  </Reference>
+</ItemGroup>
+
+</Project>
